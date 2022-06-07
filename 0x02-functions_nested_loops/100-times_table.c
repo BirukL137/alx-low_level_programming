@@ -24,7 +24,7 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-				if ((result < 10) && (b != 0 ))
+				if ((result < 10) && (b != 0))
 				{
 					_putchar(' ');
 					_putchar(' ');
@@ -34,7 +34,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar((result / 10) + '0');
-					_putchar((result % 10) +'0');
+					_putchar((result % 10) + '0');
 				}
 				else if ((result >= 100) && (b != 0))
 				{
@@ -43,7 +43,7 @@ void print_times_table(int n)
 					_putchar((result % 10) + '0');
 				}
 				else
-					_putchar((result % 10) = '0');
+					_putchar((result % 10) + '0');
 			}
 			_putchar('\n');
 		}
