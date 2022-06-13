@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * puts2 - function prints every other character of a string
  * @str: string
  * Return: nothing
  */
-
 void puts2(char *str)
 {
 	int a, b;
@@ -17,7 +15,7 @@ void puts2(char *str)
 	{
 		a++;
 	}
-	
+
 	while (b < a)
 	{
 		_putchar(str[b]);
