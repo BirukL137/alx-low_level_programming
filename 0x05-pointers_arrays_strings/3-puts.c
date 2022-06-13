@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * _puts - function that prints a string followed by new line
+ * _puts - function prints a string
  * @str: string
- * Returns: Success 0
+ * Return: nothing
  */
-
 void _puts(char *str)
 {
 	int index;
