@@ -3,7 +3,7 @@
 /**
  * _puts - function that prints a string followed by new line
  * @str: string
- * Returns: Sucess 0
+ * Returns: Success 0
  */
 
 void _puts(char *str)
