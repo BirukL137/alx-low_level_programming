@@ -5,9 +5,8 @@
  * @s: the string
  * @accept: contains bytes from accept
  *
- * Return: the number of bytes in the initial segment of s 
+ * Return: the number of bytes in the initial segment of s
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	int i;
@@ -15,7 +14,6 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int length;
 
 	length = 0;
-
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; accept[j] != '\0' && accept[j] != s[i]; j++)
