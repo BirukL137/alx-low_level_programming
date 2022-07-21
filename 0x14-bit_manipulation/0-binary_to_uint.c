@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h">
+#include <stdio.h>
 
 /**
  * binary_to_uint - function that converts a binary number to an unsigned int
@@ -34,12 +34,14 @@ unsigned int binary_to_uint(const char *b)
 /**
  * _strlen - function that returns the length of a string
  * @s: parameter defined in main
+ *
  * Return: length of string
  */
 
 int _strlen(const char *s)
 {
 	int i = 0;
+
 	while (*s != '\0')
 	{
 		i++;
@@ -52,6 +54,7 @@ int _strlen(const char *s)
  * _pow_recursion - function that returns x raised to the power of y
  * @x: parameter defined in main, integer
  * @y: parameter defined in main, exponent
+ *
  * Return: integer
  */
 
