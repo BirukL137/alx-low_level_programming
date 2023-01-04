@@ -9,7 +9,7 @@
   * @right: The ending index of the [sub]array to search.
   * @value: The value to search for.
   * Description: Prints the [sub]array being searched after each change.
-  * 
+  *
   * Return: If the value is not present or the array is NULL, -1.
   *         Otherwise, the index where the value is located.
   *
